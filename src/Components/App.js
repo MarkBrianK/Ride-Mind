@@ -6,8 +6,6 @@ import Maintainance from './Maintainance';
 import About from './About';
 import {Route, Switch } from 'react-router-dom';
 import Footer from './Footer';
-//import { Card } from 'react-bootstrap/Card';
-//import Card from "./Card"
 
 function App() {
   
