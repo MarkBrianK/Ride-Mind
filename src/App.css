@@ -1,0 +1,105 @@
+.App {
+  text-align: center;
+}
+body {
+  margin: 0%;
+  padding: 0%;
+  background: url(./Images/garage.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-repeat: no-repeat;
+  height: 450px;
+  width: 100%;
+  background-image: url(./Images/mercedes.jpg);
+  background-size: cover;
+  margin-bottom: 50px;
+  color: white;
+}
+.btn{
+  margin-left: 800px;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  width: 100%;
+  gap: 50px;
+}
+.grid-container img {
+  width: 100%;
+  border-radius: 16px;
+}
+.grid-container h2 {
+  color:#7e5406;
+  margin-top:5%;
+}
+.footer {
+  background: url(./Images/car.jpg);
+  height: 350px;
+  width: 100%;
+  margin-top: 50px;
+}
+.display{
+  color: rgb(80, 73, 73);
+}
+.portalheader{
+  color: rgb(92, 45, 45);
+}
+.container3{
+  float: right;
+}
+.span1{
+  color: darkgreen;
+  font-size: xx-large;
+}
+.span2{
+  color:darkblue ;
+  font-size:xx-large ;
+}
+.contact{
+  color: #7e5406;
+}
+.media img{
+  width: 50px;
+  height: 50px;
+  border-radius:50%;
+  display: flex;
+}
